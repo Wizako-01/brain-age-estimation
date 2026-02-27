@@ -10,9 +10,9 @@ This project develops a deep learning model to predict a person’s chronologica
 
 The difference between predicted age and actual age — the **Brain Age Gap (BAG)** — can serve as a biomarker for accelerated brain aging and neurodegeneration:
 
-\[
-\text{BAG} = \text{Predicted Age} - \text{Chronological Age}
-\]
+
+BAG = Predicted Age - Chronological Age
+
 
 A higher BAG may indicate structural brain changes associated with neurological disorders such as Alzheimer’s disease or cognitive decline.
 
