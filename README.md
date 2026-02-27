@@ -108,4 +108,12 @@ Primary evaluation metric: MAE (years)
 ---
 
 ## Project Structure
-
+brain-age/
+├── data/           # Raw and processed NIfTI files
+├── preprocessing/  # Skull stripping and normalization scripts
+├── models/         # 3D CNN and ViT definitions
+├── training/       # Training loops and loss functions
+├── evaluation/     # Metrics, BAG analysis, and plots
+├── utils/          # Custom PyTorch Dataset and Dataloaders
+├── notebooks/      # EDA and results visualization
+└── README.md       # Project documentation
