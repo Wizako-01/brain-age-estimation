@@ -1,0 +1,46 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# MRI and medical imaging datasets
+data/
+datasets/
+downloads/
+*.nii
+*.nii.gz
+*.dcm
+*.nrrd
+*.mgz
+
+# PyTorch model weights
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# Training logs
+runs/
+wandb/
+lightning_logs/
+*.log
+
+# Environment and temporary files
+.env
+.env.*
+!.env.example
+*.tmp
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+  
